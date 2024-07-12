@@ -1,0 +1,70 @@
+.wallpaper {
+    background-color: #F5F7FA;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: auto;
+}
+
+.banner{
+    font-size: 27px;
+}
+
+
+.forHoverImg:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: brightness(80%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 12px 66px;
+    position: relative;
+
+}
+
+.island {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 24px;
+    width: 1386px;
+    margin-bottom: 10px;
+}
+
+.island .Ad img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.island .product {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.island .product2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.island .product img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.asd123{
+    margin-top: 5px;
+}

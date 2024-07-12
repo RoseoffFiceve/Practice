@@ -1,0 +1,51 @@
+/* Жирный */
+@font-face {
+	font-family: 'FontName Bold'; 
+	src: url(bold.otf); 
+}
+ 
+.textBold {
+	font-family: 'FontName Bold'; 
+}
+
+@font-face {
+	font-family: 'FontName Light'; 
+	src: url(light.otf); 
+}
+ 
+.textLight {
+	font-family: 'FontName Light'; 
+}
+
+@font-face {
+	font-family: 'FontName Medium'; 
+	src: url(medium.otf); 
+} 
+.textMedium {
+	font-family: 'FontName Medium'; 
+}
+@font-face {
+	font-family: 'FontName Regular'; 
+	src: url(regular.otf); 
+}
+ 
+.textRegular {
+	font-family: 'FontName Regular'; 
+}
+@font-face {
+	font-family: 'FontName Thin'; 
+	src: url(thin.otf); 
+}
+ 
+.textThin {
+	font-family: 'FontName Thin'; 
+}
+
+@font-face {
+	font-family: 'FontName UltraBold'; 
+	src: url(ultrabold.otf); 
+}
+ 
+.textUltrabold {
+	font-family: 'FontName UltraBold'; 
+} 
