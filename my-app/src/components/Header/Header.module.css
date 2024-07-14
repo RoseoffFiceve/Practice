@@ -16,7 +16,6 @@ header {
 }
 
 
-
 .sizeForNavBar {
     font-size: 14px;
 }
@@ -149,6 +148,7 @@ header {
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-top: 50px;
 }
 
 
@@ -164,6 +164,7 @@ header {
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-top: 60px;
 }
 .horizontalMenu div span{
     padding-left: 10px;
@@ -220,4 +221,14 @@ header {
 
 .searchButton:hover, .catalogButton:hover{
     background-color: #007bff;
+}
+
+.PlStroka{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #fff;
 }

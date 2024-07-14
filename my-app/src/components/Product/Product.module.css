@@ -1,29 +1,30 @@
-.product{
- display: flex;
- flex-direction: column; 
- align-content: stretch;
- max-width: 255px;  
+.product {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    max-width: 247px;
+    margin-bottom: 30px;
 }
 
-.photo{
-    height: 160px;
-    width: 160px;
+.photo {
+    height: 247px;
+    width: 247px;
     border-radius: 10px;
 }
 
-.price{
+.price {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-
+    margin-top: 10px;
 }
 
-.newprice{
+.newprice {
     font-size: 20px;
     color: rgb(248, 17, 85);
 }
 
-.oldprice{
+.oldprice {
     margin-left: 4px;
     margin-right: 4px;
     font-size: 14px;
@@ -31,22 +32,22 @@
     text-decoration: line-through
 }
 
-.percent{
+.percent {
     font-size: 14px;
     color: rgb(248, 17, 85);
 }
 
-.name{
+.name {
     font-size: 16px;
     color: #3d3c3c;
     font-weight: 600;
 }
 
-.forHover:hover{
+.forHover:hover {
     cursor: pointer;
 }
 
-.forHover:hover .name{
+.forHover:hover .name {
     color: #005bff;
     cursor: pointer;
 }

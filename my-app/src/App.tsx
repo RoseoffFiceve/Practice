@@ -9,9 +9,10 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{backgroundColor:'#F5F7FA'}}>
       <Header></Header>
       <Main></Main>
+      <Footer></Footer>
     </div>
   );
 }

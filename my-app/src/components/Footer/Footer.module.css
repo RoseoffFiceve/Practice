@@ -1,0 +1,214 @@
+/* Footer.module.css */
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+.Aboba{
+    color: black;
+    font-size: 16px;
+}
+
+.Aboba svg{
+    margin-right: 10px;
+}
+
+
+.forHover:hover{
+    color: #005bff;
+}
+
+.forHover:hover > * {
+    fill: #005bff;
+    color: #005bff;
+    cursor: pointer;
+}
+
+.sizeForNavBar {
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+}
+
+.footerContainer {
+    padding: 20px;
+    max-width: 1472px;
+}
+
+.topSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    background-color: rgba(0,48,120,.039);
+}
+
+.logo {
+    width: 140px;
+    height: 23px;
+    margin-right: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.qrCodeSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.qrCode {
+    width: 190px;
+    height: 190px;
+}
+
+.appLinks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.appLinks img {
+    width: 40px;
+    height: 40px;
+}
+
+.linksSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.linksSection div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.linksSection h3 {
+    margin-bottom: 10px;
+}
+
+.linksSection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.linksSection li {
+    margin-bottom: 5px;
+}
+
+.linksSection a {
+    text-decoration: none;
+}
+
+.bottomSection {
+    display: flex;
+    padding-top: 20px;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.socialLinks img {
+    width: 30px;
+    height: 30px;
+}
+
+.accessibilityButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.forHover1{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    fill: black;
+}
+
+.forHover1:hover{
+    background-color: #4680C2;
+    fill: white;
+}
+
+.forHover2{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    fill: black;
+}
+
+.forHover2:hover{
+    background-color: orange;
+    fill: white;
+}
+
+.forHover3{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    fill: black;
+}
+
+.forHover3:hover{
+    background-color: #2cb5f5;
+    fill: white;
+}
+
+.Add{
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.SocLinks{
+    display: flex;
+}
+
+.Lupa{
+    margin-right: 10px;
+}
